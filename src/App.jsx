@@ -1,11 +1,13 @@
-import UserList from "./components/UserList.jsx";
-import ProductList from "./components/ProductList.jsx";
+import Header from "./components/Header.jsx";
+import MainContent from "./components/MainContent.jsx";
+import Footer from "./components/Footer.jsx";
 
 export const App = () => {
     return (
-        <main>
-            <UserList/>
-            <ProductList/>
-        </main>
+        <div>
+            <Header/>
+            <MainContent/>
+            <Footer/>
+        </div>
     )
 }
