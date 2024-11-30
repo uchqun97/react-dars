@@ -1,10 +1,20 @@
-export const App = () => {
-    const styles = {color: "white", backgroundColor: "teal", padding: "2rem"}
+const Button = () => {
+    function clickHandler() {
+        console.log(Math.round(Math.random() * 10));
+    }
 
     return (
         <div>
-            <h1 style={styles}>Inline Style</h1>
+            <button onClick={clickHandler}>Click</button>
         </div>
     )
 }
 
+
+export const App = () => {
+    return (
+        <section>
+            <Button/>
+        </section>
+    )
+}
