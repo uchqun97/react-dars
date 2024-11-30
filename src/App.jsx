@@ -1,13 +1,9 @@
-import Header from "./components/Header.jsx";
-import Main from "./components/Main.jsx";
-import Footer from "./components/Footer.jsx";
+import JsxRules from "./components/JSXRules.jsx";
 
 export const App = () => {
     return (
         <div>
-            <Header/>
-            <Main/>
-            <Footer/>
+            <JsxRules />
         </div>
     )
 }
