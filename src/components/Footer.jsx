@@ -1,8 +1,11 @@
 const Footer = () => {
     return (
-        <footer>
+        <div>
             <p>© 2024 Mening Vebsaytim </p>
-        </footer>
+            <div>
+                hello
+            </div>
+        </div>
     )
 }
 export default Footer
