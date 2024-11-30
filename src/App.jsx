@@ -1,20 +1,17 @@
-const Button = () => {
-    function clickHandler() {
-        console.log(Math.round(Math.random() * 10));
-    }
-
-    return (
-        <div>
-            <button onClick={clickHandler}>Click</button>
-        </div>
-    )
-}
-
+import counter from "./components/counter.jsx";
+import Todolist from "./components/Todolist.jsx";
+import profile from "./components/profile.jsx";
+import shoppinglist from "./components/shoppinglist.jsx";
 
 export const App = () => {
+
+
     return (
         <section>
-            <Button/>
+            <counter/>
+            <Todolist/>
+            <profile/>
+            <shoppinglist/>
         </section>
     )
 }
